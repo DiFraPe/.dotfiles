@@ -25,6 +25,9 @@ gaps outer 5
 # Gap interni (tra le finestre)
 gaps inner 10
 
+# Imposta il power menu
+set $powermenu /home/franc/.config/rofi/powermenu/type-5/powermenu.sh
+bindsym $mod+p exec --no-startup-id $powermenu
 
 # Rimuove la barra del titolo alle finestre
 # for_window [class=".*"] border none
