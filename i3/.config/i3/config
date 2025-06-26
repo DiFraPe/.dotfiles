@@ -24,7 +24,7 @@ gaps outer 5
 gaps inner 10
 
 # barra
-exec_always --no-startup-id polybar -q
+exec_always --no-startup-id pkill polybar && polybar -q
 
 # Imposta il power menu
 set $powermenu /home/franc/.config/rofi/powermenu/type-5/powermenu.sh
